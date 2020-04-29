@@ -36,3 +36,7 @@ In this article, we took a look at the 2014 and 2019 survey data to get an insig
 1. *Python* and *Javascript* are the most rapidly growing programming languages.
 2. Older developers work from home more often than younger ones.
 3. The better the English level in a country, the higher the probability they will visit Stackoverflow
+
+
+#### Sources
+- https://convertiblesolutions.com/wp-content/uploads/2015/03/Magnet.jpg
