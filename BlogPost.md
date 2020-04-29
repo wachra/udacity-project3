@@ -1,8 +1,8 @@
-# Who are these people that answer your questions on Stackoverflow?
-![Grafik1](https://i.imgur.com/IDcKI8N.png)
+# Know your customers before they know you
+![Grafik1](https://i.imgur.com/cpbk9DL.png)
 
 ## Introduction
-As a student of a technical course of studies [Stackoverflow](https://stackoverflow.com/) is my starting point to get questions about a programming language answered. Since Stackoverflow does not provide private communication between users, little is known about them. This article tries to shed some light on this by using the Stackoverflow [2014](https://drive.google.com/uc?export=download&id=0B0DL28AqnGsrempjMktvWFNaQzA) and [2019](https://drive.google.com/open?id=1QOmVDpd8hcVYqqUXDXf68UMDWQZP0wQV) survey data to answer three questions.
+Customer acquisition is costly. In the digital age it makes little difference whether you send an email to one or to a thousand people, but those who consider email to be spam will quickly become annoyed by it. So it would be an advantage to know before sending the email if the recipient is interested in the offer sent to him. With the help of supervised and unsupervised learning, this blog post is intended to explore this possibility.
 
 ## Which programming languages have become more popular within the last 5 years?
 As a student, one constantly asks oneself whether the acquired knowledge is also that which will be needed in the later job. Of course this also applies to programming languages. Therefore it would be interesting to know which programming languages have gained or lost popularity within the last five years. The following graphic will answer this question. 
