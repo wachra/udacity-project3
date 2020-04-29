@@ -9,7 +9,7 @@ In order to achieve these goals, I took the following steps:
 - Data preprocessing to reduce the number of columns with a lot of *NAs*
 - Using k-modes, demographics data for the general population of Germany and customer data is clustered and compared with each other  
 - Using random forest classification (including hyperparameter optimization and cross-validation), a prediction is made on the test data set as to how likely it is that a person will respond
-- The prediction was uploaded to [Kaggle](https://www.kaggle.com/) and evaluated using the metric AUC 
+- The prediction was uploaded to [Kaggle](https://www.kaggle.com/) and evaluated using the metric *AUC (Area Under the Curve)* 
 
 
 ## Data
