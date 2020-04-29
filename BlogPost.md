@@ -14,6 +14,8 @@ The author had four data sets at his disposal:
 The first two sets of data serve to compare the (german) customers of a mail-order company with the population of Germany. Since there was no label for any of the two data sets, an unsupervised procedure (k-modes) was used in the next but one chapter. For the third dataset, however, the author had labels so that he could use a supervised learning procedure *(random forest classification)*. With this trained model, predictions were then made on the fourth dataset - the test dataset.
 
 ## Preprocessing
+Before the similarity of the first two data sets can be determined with k-modes, the columns were checked for missing values *(NAs)*. As the following graphic shows, the majority of the first data record has a percentage of *NAs* less than or equal to 20%.
+
 ![Grafik2](https://i.imgur.com/Z2OQZBy.png)  
 
 It is obvious that the languages *Python* and *Javascript* have gained significantly in popularity among Stackoverflow users over the last five years with an increase of 18.7% and 8.9% respectively. Among the losers are the programming languages *C#* and *Objective C*, which have a minus of 6% and 5.7%. So if you are looking for a seminal programming language for the next few years, *Python* or *Javascript* may your best bet.  
