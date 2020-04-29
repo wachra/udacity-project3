@@ -11,7 +11,8 @@ The author had four data sets at his disposal:
 3. Demographics train data for individuals who were targets of a marketing campaign
 4. Demographics test data for individuals who were targets of a marketing campaign
 
-The first two sets of data serve to compare the (german) customers of a mail-order company with the population of Germany. Since there was no label for any of the two data sets, an unsupervised procedure (k-modes) was used in the next but one chapter. For the third dataset, however, the author had labels so that he could use a supervised learning procedure *(random forest classification)*. With this trained model, predictions were then made on the fourth dataset - the test dataset.
+The first two sets of data serve to compare the (german) customers of a mail-order company with the population of Germany. Since there was no label for any of the two data sets, an unsupervised procedure (k-modes) was used in the next but one chapter. For the third dataset, however, the author had labels so that he could use a supervised learning procedure *(random forest classification)*. With this trained model, predictions were then made on the fourth dataset - the test dataset.  
+The records all had at least 350 similar columns. These contained information about the age, social status or children of the different persons.
 
 ## Preprocessing
 Before the similarity of the first two data sets can be determined with k-modes, the columns were checked for missing values *(NAs)*. As the following graphic shows, the majority of the first data record has a percentage of *NAs* less than or equal to 20%.
