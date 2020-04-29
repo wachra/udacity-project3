@@ -17,7 +17,7 @@ The records all had at least 350 similar columns. These contained information ab
 ## Preprocessing
 Before the similarity of the first two data sets can be determined with k-modes, the columns were checked for missing values *(NAs)*. As the following graphic shows, the majority of the first data record has a percentage of *NAs* less than or equal to 20%. 
 
-![Grafik2](https://i.imgur.com/8AnY1Yq.png)  
+![Grafik2](https://i.imgur.com/XG4QP2z.png)  
 
 It was remarkable that negative values were entered in many categorical columns. On closer inspection, it was discovered that this was an encoding for *NAs*. After these values were also provided as NAs, the author decided to remove columns with a share of 20% of missing values. This step was necessary because k-modes do not allow missing values and some supervised procedures have problems dealing with missing values. This step is necessary because k-modes does not allow missing values and also some supervised procedures have problems dealing with missing values. Since the remaining columns were all categorical, the missing values were replaced with the mode.
 
