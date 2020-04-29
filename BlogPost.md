@@ -31,7 +31,7 @@ The graph shows that the share of people under thirty who do not rely on distanc
 ## Is Stackoverflow less used in European countries where the percentage of English language skills is considered lower?
 Finally, it will be investigated whether the number of users on Stackoverflow in European non-English speaking countries depends on their knowledge of English. The ten countries with the absolute number of participants were used for this purpose. To ensure comparability between the countries, the number of participants in each country was set in relation to the number of inhabitants. The English level of the respective countries was taken from [this](https://www.ef.com/wwen/epi/) website.  
 
-![Grafik4](https://i.imgur.com/8aQ70EM.png)  
+![Grafik4](https://i.imgur.com/6Y1Fezx.png)  
 
 As can be seen, the number of users from countries whose English skills are considered higher is more frequent (in relation to the respective number of inhabitants). One could conclude from this that the information on Stackoverflow is not accessible to those whose English skills are considered lower. Improving school education or integrating a translator into Stackoverflow could be actions to address this issue.   
 
