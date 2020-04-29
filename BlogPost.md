@@ -36,7 +36,7 @@ To be able to compare the first two datasets with each other, a cluster method i
 
 The graph shows that the share of people under thirty who do not rely on distance work is actually higher than for older people. The proportion of those who work almost exclusively at a distance also appears to increase with age, with the exception of those under 20 years of age. It is interesting to note that a polarizing effect has been observed over the last five years. The number of those who either never or work completely at a remote location has increased.   
 
-## Is Stackoverflow less used in European countries where the percentage of English language skills is considered lower?
+## Supervised Learning: Random Forest Classifier
 Finally, it will be investigated whether the number of users on Stackoverflow in European non-English speaking countries depends on their knowledge of English. The ten countries with the absolute number of participants were used for this purpose. To ensure comparability between the countries, the number of participants in each country was set in relation to the number of inhabitants. The English level of the respective countries was taken from [this](https://www.ef.com/wwen/epi/) website.  
 
 ![Grafik4](https://i.imgur.com/uB1ZCz3.png)  
