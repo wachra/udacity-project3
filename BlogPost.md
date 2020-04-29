@@ -5,12 +5,13 @@
 Customer acquisition is costly. In the digital age it makes little difference whether you send an email to one or to a thousand people, but those who consider email to be spam will quickly become annoyed by it. So it would be an advantage to know before sending the email if the recipient is interested in the offer sent to him. With the help of supervised and unsupervised learning, this blog post is intended to explore this possibility for Bertelsmann Arvato.
 
 ## Data
+The author had four data sets at his disposal:
 1. Demographics data for the general population of Germany
 2. Demographics data for customers of a mail-order company
 3. Demographics train data for individuals who were targets of a marketing campaign
 4. Demographics test data for individuals who were targets of a marketing campaign
 
-As a student, one constantly asks oneself whether the acquired knowledge is also that which will be needed in the later job. Of course this also applies to programming languages. Therefore it would be interesting to know which programming languages have gained or lost popularity within the last five years. The following graphic will answer this question. 
+The first two sets of data serve to compare the (german) customers of a mail-order company with the population of Germany. 
 
 ![Grafik2](https://i.imgur.com/oxcyxsd.png)  
 
