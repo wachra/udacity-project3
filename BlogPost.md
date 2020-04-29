@@ -11,7 +11,7 @@ The author had four data sets at his disposal:
 3. Demographics train data for individuals who were targets of a marketing campaign
 4. Demographics test data for individuals who were targets of a marketing campaign
 
-The first two sets of data serve to compare the (german) customers of a mail-order company with the population of Germany. 
+The first two sets of data serve to compare the (german) customers of a mail-order company with the population of Germany. Since there was no label for any of the two data sets, an unsupervised procedure (k-modes) was used in the next but one chapter. For the third dataset, however, the author had labels so that he could use a supervised learning procedure *(random forest classification)*. With this trained model, predictions were then made on the fourth dataset - the test dataset.
 
 ## Preprocessing
 ![Grafik2](https://i.imgur.com/Z2OQZBy.png)  
