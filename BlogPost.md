@@ -13,7 +13,8 @@ The author had four data sets at his disposal:
 
 The first two sets of data serve to compare the (german) customers of a mail-order company with the population of Germany. 
 
-![Grafik2](https://i.imgur.com/oxcyxsd.png)  
+## Preprocessing
+![Grafik2](https://i.imgur.com/Z2OQZBy.png)  
 
 It is obvious that the languages *Python* and *Javascript* have gained significantly in popularity among Stackoverflow users over the last five years with an increase of 18.7% and 8.9% respectively. Among the losers are the programming languages *C#* and *Objective C*, which have a minus of 6% and 5.7%. So if you are looking for a seminal programming language for the next few years, *Python* or *Javascript* may your best bet.  
 
