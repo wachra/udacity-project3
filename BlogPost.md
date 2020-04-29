@@ -2,10 +2,11 @@
 ![Grafik1](https://i.imgur.com/cpbk9DL.png)
 
 ## Introduction
-Customer acquisition is costly. In the digital age it makes little difference whether you send an email to one or to a thousand people, but those who consider email to be spam will quickly become annoyed by it. So it would be an advantage to know before sending the email if the recipient is interested in the offer sent to him. With the help of supervised and unsupervised learning, this blog post is intended to explore this possibility for Bertelsmann Arvato.
+Customer acquisition is costly. In the digital age it makes little difference whether you send an email to one or to a thousand people, but those who consider email to be spam will quickly become annoyed by it. So it would be an advantage to know before sending the email if the recipient is interested in the offer sent to him. With the help of supervised and unsupervised learning techniques, this blog post - representing my capstone project of the Udacity nanodegree - is intended to explore this possibility.  
+
 
 ## Data
-The author had four data sets at his disposal:
+The author had access to four data sets that originated from the cooperation between *Udacity* and *Bertelsmann Arvato*:
 1. Demographics data for the general population of Germany
 2. Demographics data for customers of a mail-order company
 3. Demographics train data for individuals who were targets of a marketing campaign
