@@ -13,7 +13,7 @@ Since I am a technical student who often looks for advice on Stackoverflow I wou
 - [kmodes](https://pypi.org/project/kmodes/)
 
 ### 3. File Descriptions
-- **BlogPost.md**: A blog post about my finding of Stackoverflow's surveys
+- **BlogPost.md**: A blog post about my finding
 - **Arvato Project Workbook.ipynb**: A Jupyter Notebook that keeps my calculations and results
 
 ### 4. Findings
