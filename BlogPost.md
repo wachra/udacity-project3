@@ -22,7 +22,7 @@ Before the similarity of the first two data sets can be determined with k-modes,
 It was remarkable that negative values were entered in many categorical columns. On closer inspection, it was discovered that this was an encoding for *NAs*. After these values were also provided as NAs, the author decided to remove columns with a share of 20% of missing values. This step was necessary because k-modes do not allow missing values and some supervised procedures have problems dealing with missing values. This step is necessary because k-modes does not allow missing values and also some supervised procedures have problems dealing with missing values. Since the remaining columns were all categorical, the missing values were replaced with the mode.
 
 ## Unsupervised Learning: k-modes
-To be able to compare the first two datasets with each other, a cluster method is required, which does not presuppose metric scaling of the columns: [k-modes](https://github.com/nicodv/kmodes). 
+To be able to compare the first two datasets with each other, a cluster method is required, which does not presuppose metric scaling of the columns: [k-modes](https://github.com/nicodv/kmodes). Instead of calculating the distance of the vectors to each other, the number of different values - compared to the centroid - are counted. The centroid represents the mode of the observations assigned to it. The observations are assigned to the centroid to which the observations show the least deviation. 
 
 ![Grafik3](https://i.imgur.com/NXf3m87.png)  
 
