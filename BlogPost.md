@@ -24,7 +24,7 @@ It was remarkable that negative values were entered in many categorical columns.
 ## Unsupervised Learning: k-modes
 To be able to compare the first two datasets with each other, a cluster method is required, which does not presuppose metric scaling of the columns: [k-modes](https://github.com/nicodv/kmodes). Instead of calculating the distance of the vectors to each other, the number of different values - compared to the centroid - are counted. The centroid represents the mode of the observations assigned to it. The observations are assigned to the centroid to which the observations show the least deviation. 
 
-![Grafik3](https://i.imgur.com/PEmxnpt.png)  
+![Grafik3](https://i.imgur.com/Q5x6Dpj.png)  
 
 The graph shows that the share of people under thirty who do not rely on distance work is actually higher than for older people. The proportion of those who work almost exclusively at a distance also appears to increase with age, with the exception of those under 20 years of age. It is interesting to note that a polarizing effect has been observed over the last five years. The number of those who either never or work completely at a remote location has increased.   
 
