@@ -2,7 +2,14 @@
 ![Grafik1](https://i.imgur.com/cpbk9DL.png)
 
 ## Introduction
-Customer acquisition is costly. In the digital age it makes little difference whether you send an email to one or to a thousand people, but those who consider email to be spam will quickly become annoyed by it. So it would be an advantage to know before sending the email if the recipient is interested in the offer sent to him. With the help of supervised and unsupervised learning techniques, this blog post - representing my capstone project of the Udacity nanodegree - is intended to explore this possibility.  
+Customer acquisition is costly. In the digital age it makes little difference whether you send an email to one or to a thousand people, but those who consider email to be spam will quickly become annoyed by it. So it would be an advantage to know before sending the email if the recipient is interested in the offer sent to him. With the help of supervised and unsupervised learning techniques, this blog post - representing my capstone project of the Udacity Nanodegree - is intended to explore this possibility.   
+
+In order to achieve these goals, I took the following steps:
+- Exploration of the given data
+- Data preprocessing to reduce the number of columns with a lot of *NAs*
+- Using k-modes, demographics data for the general population of Germany and customer data is clustered and compared with each other  
+- Using random forest classification (including hyperparameter optimization and cross-validation), a prediction is made on the test data set as to how likely it is that a person will respond
+- The prediction was uploaded to [Kaggle](https://www.kaggle.com/) and evaluated using the metric AUC 
 
 
 ## Data
