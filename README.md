@@ -2,7 +2,7 @@
 This Repository contains the files for Udacity's Data Science Nanodegree Capstone Project.
 
 ### 1. Motivation  
-Since I am a technical student who often looks for advice on Stackoverflow I would like to learn a little more about the users. Stackoverflow does not allow private communication between users thus no personal conversations between users take place. The goal of this Project is to get to know the users of Stackoverflow a little better.
+Customer acquisition is costly. In the digital age it makes little difference whether you send an email to one or to a thousand people, but those who consider email to be spam will quickly become annoyed by it. So it would be an advantage to know before sending the email if the recipient is interested in the offer sent to him. With the help of supervised and unsupervised learning techniques, this project - representing my capstone project of the Udacity Nanodegree - is intended to explore this possibility. 
 
 ### 2. Installations
 - [Python 3.X](https://www.python.org/downloads/)
