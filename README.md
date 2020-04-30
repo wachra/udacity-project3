@@ -19,7 +19,7 @@ Customer acquisition is costly. In the digital age it makes little difference wh
 ### 4. Findings
 - With 41 features an *AUC* score between 0.55 and 0.65 can be achieved
 - Random forest classifier has with 41 features a higher AUC than with 107. This is probably due to the fact that filling the *NAs* with the Random forest mode is more confusing than helpful. 
-- The costs of *k-modes* are very volatile. it is therefore advisable to run it several times to find a stable solution.
+- The costs of *k-modes* are very volatile. It is therefore advisable to run it several times to find a stable solution.
 
 ### 5. Acknowledgements
 Thanks to *Bertelsmann Arvato Analytics* for providing the data sets and the survey participants.
