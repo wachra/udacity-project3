@@ -45,12 +45,12 @@ The third data set acts as a training data set while the fourth is used as a tes
 
 ![Grafik5](https://i.imgur.com/AvR9mFm.png)  
 
-The *Random Forest Classifier* was used to make a prediction on the fourth data set. Using *Grid Search* and *Cross Validation*, the optimal number of trees and the minimum number of observations per leaf were determined. It turned out that especially the columns `ONLINE_AFFINITAET`, `HH_INCOME_SCORE` and `CJT_TOTAL TYPE` were considered most important by Random Forest. These three columns deal with the consumption behaviour and income of individuals. This makes sense, because people who have already reacted positively to advertising may react positively again. Especially, something can only be consumed if the necessary money is available. The author tried to increase the AUC with different numbers of features which he succeeded best with 41 features.
+The *Random Forest Classifier* was used to make a prediction on the fourth data set. Using *Grid Search* and *Cross Validation*, the optimal number of trees and the minimum number of observations per leaf were determined. It turned out that especially the columns `ONLINE_AFFINITAET`, `HH_INCOME_SCORE` and `CJT_TOTAL TYPE` were considered most important by Random Forest. These three columns deal with the consumption behaviour and income of individuals. This makes sense, because people who have already reacted positively to advertising may react positively again. Especially, something can only be consumed if the necessary money is available. The author tried to increase the *AUC* with different numbers of features which he succeeded best with 41 features.
 
 ## Conclusion
 In this article, we tried to predict the success of a marketing campaign with the help of supervised and unsupervised learning techniques.
 1. With 41 features an AUC score between 0.55 and 0.65 can be achieved
-2. Random forest classifier has with 41 features a higher AUC than with 107. This is probably due to the fact that filling the *NAs* with the Random forest mode is more confusing than helpful. 
+2. Random Forest Classifier has with 41 features a higher *AUC* than with 107. This is probably due to the fact that filling the *NAs* with the Random forest mode is more confusing than helpful. 
 3. The costs of *k-modes* are very volatile. it is therefore advisable to run it several times to find a stable solution.
 
 
