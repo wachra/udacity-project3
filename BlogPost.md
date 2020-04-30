@@ -1,5 +1,5 @@
 # Know your customers before they know you
-![Grafik1](https://i.imgur.com/cpbk9DL.png)
+![Grafik1](https://images.squarespace-cdn.com/content/v1/5e40a797e62a4b50541a9405/1581297196838-KON9VPC26PSPT3XMMKLE/ke17ZwdGBToddI8pDm48kMD5Pqg4EOtnvApb2o-QJb97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UfM-vp47RsIPAhXUQB0PfEDPb1hR5DcDamr0q3NgByRy7zs2yPjc1ECvpa5Zm_kMqw/ca.png)
 
 ## Introduction
 Customer acquisition is costly. In the digital age it makes little difference whether you send an email to one or to a thousand people, but those who consider email to be spam will quickly become annoyed by it. So it would be an advantage to know before sending the email if the recipient is interested in the offer sent to him. With the help of supervised and unsupervised learning techniques, this blog post - representing my capstone project of the Udacity Nanodegree - is intended to explore this possibility.   
@@ -55,4 +55,4 @@ In this article, we took a look at the 2014 and 2019 survey data to get an insig
 
 
 #### Sources
-- https://convertiblesolutions.com/wp-content/uploads/2015/03/Magnet.jpg
+- https://images.squarespace-cdn.com/content/v1/5e40a797e62a4b50541a9405/1581297196838-KON9VPC26PSPT3XMMKLE/ke17ZwdGBToddI8pDm48kMD5Pqg4EOtnvApb2o-QJb97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UfM-vp47RsIPAhXUQB0PfEDPb1hR5DcDamr0q3NgByRy7zs2yPjc1ECvpa5Zm_kMqw/ca.png
