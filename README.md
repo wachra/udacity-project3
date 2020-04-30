@@ -22,4 +22,4 @@ Customer acquisition is costly. In the digital age it makes little difference wh
 - The costs of *k-modes* are very volatile. it is therefore advisable to run it several times to find a stable solution.
 
 ### 5. Acknowledgements
-Thanks to bertelsmann Arvato for providing the data sets and the survey participants.
+Thanks to *Bertelsmann Arvato Analytics* for providing the data sets and the survey participants.
