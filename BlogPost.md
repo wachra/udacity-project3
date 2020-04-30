@@ -38,11 +38,14 @@ The graph above compares the percentage distribution of persons in the two data 
 
 ## Supervised Learning: Random Forest Classifier
 After a closer look at the demographics data for the general population of Germany and for customers of a mail-order company, a prediction can now be made with the help of the third and fourth data set. 
-![Grafik4](https://i.imgur.com/uB1ZCz3.png)
-The third data set acts as a training data set while the fourth is used as a test data set on which the predictions are made. Since only 1.2% of the recipients have responded, this is a highly unbalanced data set. Therefore the metric *AUC* is used instead of, for example, the accuracy. The goal is to maximize the AUC which ranges between 0 and 1. A value of 0.5 is considered a guess, i.e. values less than 0.5 are worse than a random prediction.  
-![Grafik5](https://i.imgur.com/AvR9mFm.png)  
-In the following a `Randomforestclassifier()` is used. In order to achieve a good result, a hyperparameter optimization is performed using `GridSearchCV()
 
+![Grafik4](https://i.imgur.com/uB1ZCz3.png)
+
+The third data set acts as a training data set while the fourth is used as a test data set on which the predictions are made. Since only 1.2% of the recipients have responded, this is a highly unbalanced data set. Therefore the metric *AUC* is used instead of, for example, the accuracy. The goal is to maximize the AUC which ranges between 0 and 1. A value of 0.5 is considered a guess, i.e. values less than 0.5 are worse than a random prediction.  
+
+![Grafik5](https://i.imgur.com/AvR9mFm.png)  
+
+The *Random Forest Classifier* was used to make a prediction on the fourth data set. Using *Grid Search* and *Cross Validation*, the optimal number of trees and the minimum number of observations per leaf were determined.
 
 ## Conclusion
 In this article, we tried to predict the success of a marketing campaign with the help of supervised and unsupervised learning techniques.
