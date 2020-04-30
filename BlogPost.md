@@ -46,7 +46,7 @@ In the following a `Randomforestclassifier()` is used. In order to achieve a goo
 
 ## Conclusion
 In this article, we tried to predict the success of a marketing campaign with the help of supervised and unsupervised learning techniques.
-1. With 41 features an AUC score between 0.6 and 0.7 can be achieved
+1. With 41 features an AUC score between 0.55 and 0.65 can be achieved
 2. Random forest classifier has with 41 features a higher AUC than with 107. This is probably due to the fact that filling the *NAs* with the Random forest mode is more confusing than helpful. 
 3. The costs of *k-modes* are very volatile. it is therefore advisable to run it several times to find a stable solution.
 
