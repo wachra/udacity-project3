@@ -2,7 +2,7 @@
 This Repository contains the files for Udacity's Data Science Nanodegree Capstone Project.
 
 ### 1. Motivation  
-Customer acquisition is costly. In the digital age it makes little difference whether you send an email to one or to a thousand people, but those who consider email to be spam will quickly become annoyed by it. So it would be an advantage to know before sending the email if the recipient is interested in the offer sent to him. With the help of supervised and unsupervised learning techniques, this project - representing my capstone project of the Udacity Nanodegree - is intended to explore this possibility. 
+Customer acquisition is costly. In the digital age it makes little difference whether you send an email to one or to a thousand people, but those who consider email to be spam will quickly become annoyed by it. So it would be an advantage to know before sending the email if the recipient is interested in the offer sent to him. With the help of supervised and unsupervised learning techniques, this project is intended to explore this possibility. 
 
 ### 2. Installations
 - [Python 3.X](https://www.python.org/downloads/)
