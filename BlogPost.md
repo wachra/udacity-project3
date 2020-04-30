@@ -37,21 +37,19 @@ To be able to compare the first two datasets with each other, a cluster method i
 The graph above compares the percentage distribution of persons in the two data sets for a k-mode with 7 clusters. Except for cluster 2 and 6, the percentage of persons is almost equal. A closer look reveals that cluster 6 in column 15 (`D19_VERSAND_ANZ_24`) shows anomalies - compared to the other clusters - and cluster 2 in columns 2, 17, 31 and 39 (`SEMIO_SOZ, ZABEOTYP, ANREDE_KZ` and `FINANZ_MINIMALIST`). These columns provide information on the gender and socio-economic status of the persons. 
 
 ## Supervised Learning: Random Forest Classifier
-Finally, it will be investigated whether the number of users on Stackoverflow in European non-English speaking countries depends on their knowledge of English. The ten countries with the absolute number of participants were used for this purpose. To ensure comparability between the countries, the number of participants in each country was set in relation to the number of inhabitants. The English level of the respective countries was taken from [this](https://www.ef.com/wwen/epi/) website.  
-
-![Grafik4](https://i.imgur.com/uB1ZCz3.png)  
-![Grafik5](https://i.imgur.com/AvR9mFm.png)
-As can be seen, the number of users from countries whose English skills are considered higher is more frequent (in relation to the respective number of inhabitants). One could conclude from this that the information on Stackoverflow is not accessible to those whose English skills are considered lower. Improving school education or integrating a translator into Stackoverflow could be actions to address this issue.   
-
-*Assumption: The author assumes that the number of study participants per country is proportional to the number of Stackoverflow visitors who did not participate in the study. Furthermore, he assumes that the availability of the internet is the same in all 10 countries compared and that the share of developers in each country is the same.*
+After a closer look at the demographics data for the general population of Germany and for customers of a mail-order company, a prediction can now be made with the help of the third and fourth data set. 
+![Grafik4](https://i.imgur.com/uB1ZCz3.png)
+The third data set acts as a training data set while the fourth is used as a test data set on which the predictions are made. Since only 1.2% of the recipients have responded, this is a highly unbalanced data set. Therefore the metric *AUC* is used instead of, for example, the accuracy. The goal is to maximize the AUC which ranges between 0 and 1. A value of 0.5 is considered a guess, i.e. values less than 0.5 are worse than a random prediction.  
+![Grafik5](https://i.imgur.com/AvR9mFm.png)  
+In the following a `Randomforestclassifier()` is used. In order to achieve a good result, a hyperparameter optimization is performed using `GridSearchCV()
 
 
 ## Conclusion
-In this article, we took a look at the 2014 and 2019 survey data to get an insight into the user base of Stackoverflow. 
+In this article, we tried to predict the success of a marketing campaign with the help of supervised and unsupervised learning techniques.
+1. With 41 features an AUC score between 0.6 and 0.7 can be achieved
+2. Random forest classifier has with 41 features a higher AUC than with 107. This is probably due to the fact that filling the *NAs* with the Random forest mode is more confusing than helpful. 
+3. The costs of *k-modes* are very volatile. it is therefore advisable to run it several times to find a stable solution.
 
-1. *Python* and *Javascript* are the most rapidly growing programming languages.
-2. Older developers work from home more often than younger ones.
-3. The better the English level in a country, the higher the probability they will visit Stackoverflow
 
 
 #### Sources
