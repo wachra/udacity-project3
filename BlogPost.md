@@ -34,7 +34,7 @@ To be able to compare the first two datasets with each other, a cluster method i
 
 ![Grafik3](https://i.imgur.com/Q5x6Dpj.png)  
 
-The graph above compares the percentage distribution of persons in the two data sets for a k-mode with 7 clusters. Except for cluster 2 and 6, the percentage of persons is almost equal. A closer look reveals that cluster 6 in column 15 (`D19_VERSAND_ANZ_24`) shows anomalies - compared to the other clusters - and cluster 2 in columns 2, 17, 31 and 39 (`SEMIO_SOZ, ZABEOTYP, ANREDE_KZ` and `FINANZ_MINIMALIST`).   
+The graph above compares the percentage distribution of persons in the two data sets for a k-mode with 7 clusters. Except for cluster 2 and 6, the percentage of persons is almost equal. A closer look reveals that cluster 6 in column 15 (`D19_VERSAND_ANZ_24`) shows anomalies - compared to the other clusters - and cluster 2 in columns 2, 17, 31 and 39 (`SEMIO_SOZ, ZABEOTYP, ANREDE_KZ` and `FINANZ_MINIMALIST`). These columns provide information on the gender and socio-economic status of the persons. 
 
 ## Supervised Learning: Random Forest Classifier
 Finally, it will be investigated whether the number of users on Stackoverflow in European non-English speaking countries depends on their knowledge of English. The ten countries with the absolute number of participants were used for this purpose. To ensure comparability between the countries, the number of participants in each country was set in relation to the number of inhabitants. The English level of the respective countries was taken from [this](https://www.ef.com/wwen/epi/) website.  
