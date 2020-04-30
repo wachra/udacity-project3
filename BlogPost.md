@@ -19,7 +19,7 @@ The author had access to four data sets that originated from the cooperation bet
 3. Demographics train data for individuals who were targets of a marketing campaign
 4. Demographics test data for individuals who were targets of a marketing campaign
 
-The first two sets of data serve to compare the (german) customers of a mail-order company with the population of Germany. Since there was no label for any of the two data sets, an unsupervised procedure (k-modes) was used in the next but one chapter. For the third dataset, however, the author had labels so that he could use a supervised learning procedure *(random forest classification)*. With this trained model, predictions were then made on the fourth dataset - the test dataset.  
+The first two sets of data serve to compare the (german) customers of a mail-order company with the population of Germany. Since there was no label for any of the two data sets, an unsupervised procedure (k-modes) was used in the next but one chapter. It was noticeable that 10% of the data was missing from the first data set and about 20% from the second. For the third dataset, however, the author had labels so that he could use a supervised learning procedure *(random forest classification)*. With this trained model, predictions were then made on the fourth dataset - the test dataset.  
 The records all had at least 350 similar columns. These contained information about the age, social status or children of the different persons.
 
 ## Preprocessing
