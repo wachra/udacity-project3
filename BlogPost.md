@@ -27,29 +27,29 @@ Before the similarity of the first two data sets can be determined with k-modes,
 
 ![Grafik2](https://i.imgur.com/XG4QP2z.png)  
 
-It was remarkable that negative values were entered in many categorical columns. On closer inspection, it was discovered that this was an encoding for *NAs*. After these values were also provided as NAs, the author decided to remove columns with a share of 20% of missing values. This step was necessary because k-modes do not allow missing values and some supervised procedures have problems dealing with missing values. This step is necessary because k-modes does not allow missing values and also some supervised procedures have problems dealing with missing values. Since the remaining columns were all categorical, the missing values were replaced with the mode.
+It was remarkable that negative values were entered in many categorical columns. On closer inspection, it was discovered that this was an encoding for *NAs*. After these values were also provided as *NAs*, the author decided to remove columns with a share of 20% of missing values. This step was necessary because *k-modes* do not allow missing values and some supervised procedures have problems dealing with missing values. This step is necessary because *k-modes* does not allow missing values and also some supervised procedures have problems dealing with missing values. Since the remaining columns were all categorical, the missing values were replaced with the mode.
 
 ## Unsupervised Learning: k-modes
 To be able to compare the first two datasets with each other, a cluster method is required, which does not presuppose metric scaling of the columns: [k-modes](https://github.com/nicodv/kmodes). Instead of calculating the distance of the vectors to each other, the number of different values - compared to the centroid - are counted. The centroid represents the mode of the observations assigned to it. The observations are assigned to the centroid to which the observations show the least deviation. 
 
 ![Grafik3](https://i.imgur.com/Q5x6Dpj.png)  
 
-The graph above compares the percentage distribution of persons in the two data sets for a k-mode with 7 clusters. Except for cluster 2 and 6, the percentage of persons is almost equal. A closer look reveals that cluster 6 in column 15 (`D19_VERSAND_ANZ_24`) shows anomalies - compared to the other clusters - and cluster 2 in columns 2, 17, 31 and 39 (`SEMIO_SOZ, ZABEOTYP, ANREDE_KZ` and `FINANZ_MINIMALIST`). These columns provide information on the gender and socio-economic status of the persons. 
+The graph above compares the percentage distribution of persons in the two data sets for a *k-modes* with 7 clusters. Except for cluster 2 and 6, the percentage of persons is almost equal. A closer look reveals that cluster 6 in column 15 (`D19_VERSAND_ANZ_24`) shows anomalies - compared to the other clusters - and cluster 2 in columns 2, 17, 31 and 39 (`SEMIO_SOZ, ZABEOTYP, ANREDE_KZ` and `FINANZ_MINIMALIST`). These columns provide information on the gender and socio-economic status of the persons. 
 
 ## Supervised Learning: Random Forest Classifier
 After a closer look at the demographics data for the general population of Germany and for customers of a mail-order company, a prediction can now be made with the help of the third and fourth data set. 
 
 ![Grafik4](https://i.imgur.com/uB1ZCz3.png)
 
-The third data set acts as a training data set while the fourth is used as a test data set on which the predictions are made. Since only 1.2% of the recipients have responded, this is a highly unbalanced data set. Therefore the metric *AUC* is used instead of, for example, the accuracy. The goal is to maximize the AUC which ranges between 0 and 1. A value of 0.5 is considered a guess, i.e. values less than 0.5 are worse than a random prediction.  
+The third data set acts as a training data set while the fourth is used as a test data set on which the predictions are made. Since only 1.2% of the recipients have responded, this is a highly unbalanced data set. Therefore the metric *AUC* is used instead of, for example, the accuracy. The goal is to maximize the *AUC* which ranges between 0 and 1. A value of 0.5 is considered a guess, i.e. values less than 0.5 are worse than a random prediction.  
 
 ![Grafik5](https://i.imgur.com/AvR9mFm.png)  
 
-The *Random Forest Classifier* was used to make a prediction on the fourth data set. Using *Grid Search* and *Cross Validation*, the optimal number of trees and the minimum number of observations per leaf were determined. *Random Forest* creates several decision trees, which make a prediction. The mode of the different predictions represents the final result. It turned out that especially the columns `ONLINE_AFFINITAET`, `HH_INCOME_SCORE` and `CJT_TOTAL TYPE` were considered most important by Random Forest. These three columns deal with the consumption behaviour and income of individuals. This makes sense, because people who have already reacted positively to advertising may react positively again. Especially, something can only be consumed if the necessary money is available. In order to be able to evaluate the prediction on the test data set these were uploaded to *Kaggle*. The author tried to increase the *AUC* with different numbers of features which he succeeded best with 41.
+The *Random Forest Classifier* was used to make a prediction on the fourth data set. Using *Grid Search* and *Cross Validation*, the optimal number of trees and the minimum number of observations per leaf were determined. *Random Forest* creates several decision trees, which make a prediction. The mode of the different predictions represents the final result. It turned out that especially the columns `ONLINE_AFFINITAET`, `HH_INCOME_SCORE` and `CJT_TOTAL TYPE` were considered most important by *Random Forest*. These three columns deal with the consumption behaviour and income of individuals. This makes sense, because people who have already reacted positively to advertising may react positively again. Especially, something can only be consumed if the necessary money is available. In order to be able to evaluate the prediction on the test data set these were uploaded to *Kaggle*. The author tried to increase the *AUC* with different numbers of features which he succeeded best with 41. 
 
 ## Conclusion
-In this article, we tried to predict the success of a marketing campaign with the help of supervised and unsupervised learning techniques.
-1. With 41 features an AUC score between 0.55 and 0.65 can be achieved
+In this article, we tried to predict the success of a marketing campaign with the help of supervised and unsupervised learning techniques. The author could gain the following insights through this project:
+1. With 41 features an *AUC* score between 0.55 and 0.65 can be achieved
 2. Random Forest Classifier has with 41 features a higher *AUC* than with 107. This is probably due to the fact that filling the *NAs* with the Random forest mode is more confusing than helpful. 
 3. The costs of *k-modes* are very volatile. It is therefore advisable to run it several times to find a stable solution.
 
